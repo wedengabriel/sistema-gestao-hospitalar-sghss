@@ -1,0 +1,8 @@
+services:
+  sghss-api:
+    build: .
+    container_name: sghss-api
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./data:/app/data
